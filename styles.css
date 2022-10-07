@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #F1FAEE; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+.hero{
+    
+    background-image: url("images/hills.jpg");
+    background-size: cover;
+    padding: 19px 0 150px 0;
+    margin-bottom:0px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero:hover{
+    background-image: url("images/faisalmosque.jpg");
+    background-size: cover;
+}
+#visit{
+  color: white;
+  background-color: #1D3557;
+  padding:5px 10px;
+  border-radius: 5px;
+  margin: 5px auto;
+  border-radius: 10px;
+  
+}
+#para{
+   text-align: center;
+   color: white;
+   background-color:  #457B9D;
+   padding:10px 9px;
+   font-size: 18px;
+   margin: 5px 50px;
+   border-radius: 10px;
+  
+}
+.activities-section{
+    
+    margin: 50px auto;
+    background: #F1FAEE;
+    padding:30px auto;
+}
+#sights{
+  
+  font-size: 25px;
+  color: black;
+
+}
+.activities{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+.h1{
+    display:flex;
+    flex-direction: row;    
+   justify-content: space-around;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.p{
+    display:flex;
+    flex-direction: row;
+  
+    align-items: center;
+    font-size: 12px;
+    margin: 15px auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+}
+
+.guide{
+    display:flex;
+    flex-direction: column;
+}
+.guide-section{
+    font-size: 22px;
+    background:  #A8DADC;
+    color:#1D3557;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-betweem;
+    margin: 30px 100px ;
+    padding: 20px 20px ;
+    border-radius:10px;
+    border-bottom: 5px solid #1D3557;
+    
+}
+#per{
+    width:350px;
+    height:350px;
+    border: 2px solid #E63946;
+    border-radius:1px;
+    margin-left:5px;
+    
+}
