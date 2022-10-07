@@ -40,6 +40,8 @@ body {
   border-radius: 5px;
   margin: 5px auto;
   border-radius: 10px;
+  text-shadow: 2px 2px 10px black;
+  
   
 }
 #para{
@@ -50,6 +52,7 @@ body {
    font-size: 18px;
    margin: 5px 50px;
    border-radius: 10px;
+   text-shadow: 2px 2px 10px black;
   
 }
 .activities-section{
@@ -59,7 +62,7 @@ body {
     padding:30px auto;
 }
 #sights{
-  
+  text-shadow: 1px 1px 50px blue;
   font-size: 25px;
   color: black;
 
@@ -94,6 +97,7 @@ img {
 }
 
 .guide{
+    text-shadow: 0px 0px 2px black;
     display:flex;
     flex-direction: column;
 }
