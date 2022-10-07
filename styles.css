@@ -75,17 +75,11 @@ body {
  
 }
 .h1{
-    display:flex;
-    flex-direction: row;    
-   justify-content: space-around;
     font-size: 12px;
     margin: 10px auto;
 }
 .p{
-    display:flex;
-    flex-direction: row;
-  
-    align-items: center;
+    
     font-size: 12px;
     margin: 15px auto;
 }
