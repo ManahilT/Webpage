@@ -105,6 +105,11 @@ img {
     color: #fff;
     position: relative;
     left: -5rem;
+    width:350px;
+    height:350px;
+    border: 2px solid #E63946;
+    border-radius:1px;
+    
   }
   
   .footer-author-details{
@@ -122,6 +127,7 @@ img {
     right: 3rem;
     bottom: 1rem;
   }
+  
   
 /*
 .h1{
