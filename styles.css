@@ -105,11 +105,12 @@ img {
 
  } 
  .guide{
+    display: flex;
+    justify-content: start;
     width:350px;
     height:350px;
-    border: 2px solid #E63946;
     border-radius:1px;
-    margin-left:5px;  }
+    margin-right:5px;  }
 /*
 .h1{
     font-size: 20px;
