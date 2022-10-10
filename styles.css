@@ -61,13 +61,13 @@ body {
     background: #F1FAEE;
     padding:30px auto;
 }
-#sights{
+/*#sights{
   text-shadow: 1px 1px 50px blue;
   font-size: 25px;
   color: black;
 
 }
-
+*/
 .h1{
     font-size: 12px;
     margin: 10px auto;
@@ -78,13 +78,13 @@ body {
     margin: 15px auto;
 }
 
-img {
+/*img {
     border-radius: 50%;
     width: 100px;
     height:100px;
 }
 
-/*.guide{
+.guide{
     text-shadow: 0px 0px 2px black;
     display:flex;
     flex-direction: column;
