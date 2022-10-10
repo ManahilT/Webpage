@@ -107,7 +107,7 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: space-betweem;
-    margin: 100px 0px ;
+    margin: none;
     padding: 50px 50px ;
     border-radius:10px;
     border-bottom: 5px solid #1D3557;
@@ -116,8 +116,7 @@ img {
  .guide{
     display: flex;
     justify-content: start;
-    width:150px;
-    height:150px;
+    width:250px;
     border-radius:1px;
     margin-right:5px;  }
 /*
