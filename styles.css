@@ -99,11 +99,16 @@ img {
     font-size:1.5rem;
   }
   .footer{
-    display: grid;
-    margin: 10px auto;
+    display: flex;
+    margin: 0px auto;
     padding: 10px 10px;
  }
-
+ .guide-image{
+  display: flex;
+  justify-content: start;
+  width:250px;
+  border-radius:1px;
+  margin-right:5px;  }
  
  @media only screen and (max-width: 400px){
   .hero{
@@ -133,12 +138,7 @@ img {
   }
  }
 
- .guide-image{
-    display: flex;
-    justify-content: start;
-    width:250px;
-    border-radius:1px;
-    margin-right:5px;  }
+
 /*
 .h1{
     font-size: 20px;
