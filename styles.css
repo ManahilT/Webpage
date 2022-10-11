@@ -112,13 +112,13 @@ img {
   border-radius:1px;
   margin-right:5px;  }
  
- @media only screen and (max-width: 400px){
+  @include media-breakpoint-up(sm){
   .hero{
   width: 90%; 
   height: 90%;
   padding: none;
   }
-  @media only screen and (max-width: 600px){
+  @include media-breakpoint-up(md){
     .hero{
     width: 90%; 
     height: 90%;
@@ -126,14 +126,14 @@ img {
     }
    }
  }
- @media only screen and (max-width: 800px){
+ @include media-breakpoint-up(lg){
   .hero{
   width: 90%; 
   height: 90%;
   padding: none;
   }
  }
- @media only screen and (max-width: 1000px){
+ @include media-breakpoint-up(xl){
   .hero{
   width: 90%; 
   height: 90%;
