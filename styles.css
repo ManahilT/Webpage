@@ -107,7 +107,7 @@ img {
 
  } 
  .footer{
-  display: flex;
+  display: grid;
  }
  /*
  .guide{
