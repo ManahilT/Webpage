@@ -22,7 +22,7 @@ body {
     
     background-image: url("images/hills.jpg");
     background-size: cover;
-    padding: 100px 200px;
+    padding: 150px 150px;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,8 @@ body {
     background-image: url("images/faisalmosque.jpg");
     background-size: cover;
     background-position: center;
+    width:200px;
+    height:150px;
 }
 
 
