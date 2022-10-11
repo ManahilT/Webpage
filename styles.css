@@ -22,9 +22,8 @@ body {
     
     background-image: url("images/hills.jpg");
     background-size: cover;
-    padding: 200px 300px;
+    padding: 100px 200px;
     background-position: center;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
