@@ -103,11 +103,7 @@ img {
     margin: 10px auto;
     padding: 10px 10px;
  }
- .guide-image{
-  display:flex;
-  flex-direction: column;
-  border-radius: none;
- }
+
  
  @media only screen and (max-width: 400px){
   .hero{
@@ -136,30 +132,8 @@ img {
   height: 90%;
   }
  }
- @media only screen and (max-width: 1200px){
-  .hero{
-  width: 90%; 
-  height: 90%;
 
-  }
- }
- @media only screen and (max-width: 1400px){
-  .hero{
-  width: 90%; 
-  height: 90%;
-  }
- }
-/*
- .container-footer{
-    font-size: 22px;
-    background:  #A8DADC;
-    color:#1D3557;
-    border-bottom: 5px solid #1D3557;
-
- } 
-
- 
- .guide{
+ .guide-image{
     display: flex;
     justify-content: start;
     width:250px;
@@ -170,6 +144,14 @@ img {
     font-size: 20px;
     margin: 10px auto;
 }
+
+ .container-footer{
+    font-size: 22px;
+    background:  #A8DADC;
+    color:#1D3557;
+    border-bottom: 5px solid #1D3557;
+
+ } 
 .p{
     
     font-size: 16px;
