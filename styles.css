@@ -26,7 +26,7 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     transition-property: width;
 }
 
@@ -110,7 +110,12 @@ img {
   .hero{
   width: 90%; 
   height: 90%;
-  padding: none;
+  padding: none;}
+  .hero-body{
+   padding:5px 3px;
+   font-size: 16px;
+   margin: 3px 10px;
+  }
   }
   @include media-breakpoint-up(md){
     .hero{
@@ -118,14 +123,20 @@ img {
     height: 90%;
     padding: none;
     }
+    .hero-body{
+      padding:5px 3px;
+      font-size: 16px;
+      margin: 3px 10px;
+     }
    }
- }
+
  @include media-breakpoint-up(lg){
   .hero{
   width: 90%; 
   height: 90%;
   padding: none;
   }
+  
  }
  @include media-breakpoint-up(xl){
   .hero{
