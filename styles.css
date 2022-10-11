@@ -108,23 +108,8 @@ img {
  } 
  .footer{
     display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px auto;
-    grid-template-areas:
-        "p p p p p p p p p p g g"
-        ". . . n n n n . . . g g";
+    justify-content: space-between;
   }
- .para{
-  grid-area: p;
- }
- .name{
-  grid-area: n;
- }
- .guide-image{
-  grid-area: g;
- }
- .
  /*
  .guide{
     display: flex;
