@@ -103,7 +103,11 @@ img {
     padding: 10px 10px;
  }
  .guide{
-  width:500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width:250px;
+  width: 250;
   border-radius:1px;
   margin-right:5px;  }
  
