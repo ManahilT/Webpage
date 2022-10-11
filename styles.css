@@ -68,11 +68,7 @@ img {
    flex: 1;
    flex-wrap: wrap;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
+
   body{
     background:pink;
     font-family:sans-serif;
@@ -101,14 +97,13 @@ img {
   .footer{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
     margin: none;
     padding: 10px 10px;
  }
- .guide-image{
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  width:250px;
+ .guide{
+  width:500px;
   border-radius:1px;
   margin-right:5px;  }
  
