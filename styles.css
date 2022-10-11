@@ -101,16 +101,22 @@ img {
   .footer{
     display: grid;
  }
+ .guide-image{
+  display:flex;
+  flex-direction: column;
+ }
+ 
  @media only screen and (max-width: 400px){
   .hero{
   width: 90%; 
   height: 90%;
-  padding: 2px auto;
+  padding: none;
   }
   @media only screen and (max-width: 600px){
     .hero{
     width: 90%; 
     height: 90%;
+    padding: none;
     }
    }
  }
@@ -118,13 +124,20 @@ img {
   .hero{
   width: 90%; 
   height: 90%;
-  padding: 5px auto;
+  padding: none;
   }
  }
  @media only screen and (max-width: 1000px){
   .hero{
   width: 90%; 
   height: 90%;
+  }
+ }
+ @media only screen and (max-width: 1200px){
+  .hero{
+  width: 90%; 
+  height: 90%;
+
   }
  }
  @media only screen and (max-width: 1400px){
