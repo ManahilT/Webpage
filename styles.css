@@ -102,14 +102,6 @@ img {
     margin: none;
     padding: 10px 10px;
  }
- .guide{
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  width:250px;
-  width: 250;
-  border-radius:1px;
-  margin-right:5px;  }
  
   @include media-breakpoint-up(sm){
   .hero{
@@ -141,6 +133,15 @@ img {
 
 
 /*
+.guide{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width:250px;
+  width: 250;
+  border-radius:1px;
+  margin-right:5px;  }
+ 
 .h1{
     font-size: 20px;
     margin: 10px auto;
