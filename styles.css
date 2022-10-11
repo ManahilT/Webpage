@@ -105,6 +105,14 @@ img {
   .hero{
   width: 90%; 
   height: 90%;
+  padding: 2px auto;
+  }
+ }
+ @media only screen and (max-width: 800px){
+  .hero{
+  width: 90%; 
+  height: 90%;
+  padding: 5px auto;
   }
  }
 
