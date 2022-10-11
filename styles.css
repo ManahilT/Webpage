@@ -100,11 +100,13 @@ img {
   }
   .footer{
     display: flex;
-    margin: 0px auto;
+    flex-direction: column;
+    margin: none;
     padding: 10px 10px;
  }
  .guide-image{
   display: flex;
+  flex-direction: row;
   justify-content: start;
   width:250px;
   border-radius:1px;
