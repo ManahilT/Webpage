@@ -101,6 +101,13 @@ img {
   .footer{
     display: grid;
  }
+ @media only screen and (max-width: 400px){
+  .hero{
+  width: 90%; 
+  height: 90%;
+  }
+ }
+
 /*
  .container-footer{
     font-size: 22px;
