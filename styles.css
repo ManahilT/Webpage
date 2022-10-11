@@ -27,7 +27,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition-property: width;
 }
+
 .hero:hover{
     background-image: url("images/faisalmosque.jpg");
     background-size: cover;
