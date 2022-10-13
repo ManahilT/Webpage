@@ -76,7 +76,7 @@ body {
     height:120px;
     opacity:1;
     margin-bottom: 12px;
-    margin-top: 15px;
+    margin-top: 16px;
     transition: 0.3s all ;
     opacity: 1;
 }
@@ -96,8 +96,9 @@ footer{
  .email-cta{
   background: white;
   color: black;
-  line-height: 1ch;
+  line-height:0px;
   border-radius:10px;
+  margin-top: 8px;
   transition: 0.3s all;
   opacity: 1;
   
