@@ -22,7 +22,7 @@ body {
     background-image: url("images/faisalmosque.png");
     background-size: cover;
     background-position: center;
-    padding: 40px;
+    height:100vh;
     transition:0.3 all ease-out;
     opacity: 0.8; 
 }
@@ -39,6 +39,10 @@ body {
   align-items: center;
 }
 
+.section-activities{
+  margin: 10px auto;
+
+}
 .rounded-image {
     border-radius: 50%;
     width: 100px;
@@ -72,21 +76,19 @@ rounded-image:hover{
 }
   
 
-h3{
-    color:#000; 
-    margin-bottom:.4rem;
-  }
-h4{
-    margin-bottom:.4rem;
-    font-size:1.5rem;
-  }
+
 footer{
     background:rgba(0, 0, 0, 0.795);
     color: beige;
     display: flex;
     flex-direction: column;
     margin: none;
-    padding: 10px 10px;
+    padding: 40px auto;
+ }
+ email-cta{
+  background: white;
+  color: black;
+  padding: 12px auto;
  }
  
   @include media-breakpoint-up(sm){
@@ -122,6 +124,14 @@ footer{
 
 
 /*
+h3{
+    color:#000; 
+    margin-bottom:.4rem;
+  }
+h4{
+    margin-bottom:.4rem;
+    font-size:1.5rem;
+  }
 .guide{
   display: flex;
   flex-direction: row;
