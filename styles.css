@@ -38,7 +38,6 @@ body {
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .hero-title{
@@ -69,8 +68,8 @@ body {
 }
 .rounded-image {
     border-radius: 50%;
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     opacity:1;
     margin-bottom: 9px;
     margin-top: 10px;
