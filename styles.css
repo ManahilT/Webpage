@@ -17,6 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
     
 }
+
 .hero{
     
     background-image: url("images/faisalmosque.png");
@@ -37,10 +38,21 @@ body {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  color: white;
+  background-color: #1D3557;
+  padding:5px 7px;
+  border-radius: 5px;
+  margin: 5px auto;
+  font-size: 26px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 10px black
 }
 
 .section-activities{
-  margin: 10px auto;
+  margin: 5px 15px 35px 15px;
+  padding: 40px auto;
+
+
 
 }
 .rounded-image {
@@ -53,42 +65,18 @@ rounded-image:hover{
   opacity:0.5;
 }
 
-.hero-title{
-  color: white;
-  background-color: #1D3557;
-  padding:3px auto;
-  border-radius: 5px;
-  margin: 5px auto;
-  font-size: 26px;
-  border-radius: 10px;
-  text-shadow: 2px 2px 10px black;
-  
-}
-.hero-body{
-
-   color: white;
-   background-color:  #457B9D;
-   padding:3px auto;
-   font-size: 20px;
-   margin: 5px auto;
-   border-radius: 10px;
-   text-shadow: 2px 2px 10px black; 
-}
-  
-
-
 footer{
     background:rgba(0, 0, 0, 0.795);
     color: beige;
     display: flex;
     flex-direction: column;
     margin: none;
-    padding: 40px auto;
+    padding: 40px 40px;
  }
  .email-cta{
   background: white;
   color: black;
-  padding: 12px auto;
+  padding: 3px 5px;
  }
  .email-cta-image{
   width:50px;
