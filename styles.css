@@ -62,7 +62,7 @@ body {
    text-shadow: 2px 2px 10px black; 
 }
 .section-activities{
-  margin-top: 25px;
+  margin-top:30px;
   padding: 40px;
   font-weight: bold;
 
@@ -73,6 +73,8 @@ body {
     height:100px;
     opacity:1;
     margin-bottom: 5px;
+    transition: 0.3s all ;
+    opacity: 1;
 }
 rounded-image:hover{
   opacity:0.5;
@@ -92,11 +94,13 @@ footer{
   color: black;
   padding: 3px 5px;
   margin: 20px 9px 10px 9px;
-  transition: 0.3s all;
   border-radius:10px;
+  transition: 0.3s all;
+  opacity: 0.5;
  }
  .email-cta:hover{
-  color:rgba(0, 0, 0, 0.795)
+  opacity: 1;
+  color: black;
 
  }
  .email-cta-image{
