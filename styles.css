@@ -97,6 +97,7 @@ footer{
   border-radius:10px;
   transition: 0.3s all;
   opacity: 1;
+  line-height: text;
  }
  .email-cta:hover{
   opacity: 0.5;
