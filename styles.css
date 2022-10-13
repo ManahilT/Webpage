@@ -64,6 +64,7 @@ body {
 .section-activities{
   margin-top: 25px;
   padding: 40px;
+  font-weight: bold;
 
 }
 .rounded-image {
