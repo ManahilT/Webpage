@@ -72,11 +72,12 @@ body {
     width: 100px;
     height:100px;
     opacity:1;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
+    margin-top: 10px;
     transition: 0.3s all ;
     opacity: 1;
 }
-rounded-image:hover{
+.rounded-image:hover{
   opacity:0.5;
 }
 
