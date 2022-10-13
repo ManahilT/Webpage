@@ -63,7 +63,7 @@ body {
 }
 .section-activities{
   margin: 15px 15px 55px 15px;
-  padding: 40px auto;
+  padding: 40px;
 
 }
 .rounded-image {
@@ -85,12 +85,13 @@ footer{
     margin: none;
     padding: 40px 40px;
  }
- .email-cta{
+ a.email-cta{
   background: white;
   color: black;
   padding: 3px 5px;
   margin: 20px 9px 10px 9px;
   transition: 0.3s all;
+  border-radius:10px;
  }
  .email-cta:hover{
   color:rgba(0, 0, 0, 0.795)
