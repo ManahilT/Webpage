@@ -62,7 +62,8 @@ body {
    text-shadow: 2px 2px 10px black; 
 }
 .section-activities{
-  margin: 15px 15px 55px 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   padding: 40px;
 
 }
@@ -98,8 +99,9 @@ footer{
 
  }
  .email-cta-image{
-  width:100px;
-  height:100px;
+  width:20px;
+  height:20px;
+  margin-right: 16px;
  }
  
   @include media-breakpoint-up(sm){
