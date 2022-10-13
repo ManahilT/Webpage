@@ -39,10 +39,8 @@ body {
   justify-items: center;
   align-items: center;
 }
-section-activities{
-  flex direction: column;
-}
-rounded-image {
+
+.rounded-image {
     border-radius: 50%;
     width: 100px;
     height:100px;
