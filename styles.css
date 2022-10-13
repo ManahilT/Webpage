@@ -38,6 +38,7 @@ body {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .hero-title{
@@ -63,7 +64,6 @@ body {
 }
 .section-activities{
   margin-top:30px;
-  padding: 40px;
   font-weight: bold;
 
 }
